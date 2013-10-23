@@ -4,13 +4,13 @@
  * Daisy chain pasta with pipes to get it done!
  *
  *
- * >> plast -g -d 0 -f index.js | plast -w "wrapper" -f cmd.js
+ * >> plast -g -d 0 -f fit.js | plast -w "wrapper" -f "fit.js"
  *
  * Ben Postlethwaite
  * Oct 22nd
  */
 
-var falafel = require('falafel');
+var falafel = require('falafel')
 
 module.exports = plast;
 

@@ -5,19 +5,21 @@ parsing AST analyizer
 
 ## Usage
 
+Plast code has been copied into the example directory and the module name plast has been stripped from cmd.js for testing.
+Go ahead and try it.
 
 ```bash
-> plast -g -d 1 -f myscript.js
+example>> plast -g -d 1 -f index.js
 ```
 This tells plast to parse the AST of `myscript.js` and print all the functions at a functional depth of 1 in the AST.
 
-`-f` is mandatory
-`-d` defaults to `0`
-`-g` tells plast to print function names
+-  `-f` is mandatory
+-  `-d` defaults to `0`
+-  `-g` tells plast to print function names
 
 
 ```bash
-> echo "func1 func2 func3" | plast -w "wrapper" -f myscript.js
+example>> echo "wrapfuncs getfuncs | plast -w "plast" -f cmd.js
 ```
 Wrap `func1 func2` and `func3` with `wrapper` so that we get `wrapper.func1`, `wrapper.func2` and `wrapper.func3`.
 Output is a console log of the transformed source file.
@@ -25,7 +27,7 @@ Output is a console log of the transformed source file.
 
 ### Bonus points
 ```bash
-> plast -g -d 0 -f sourcescript.js | pasta -w "wrapper" -f externalscript.js
+example>> plast -g -d 1 -f index.js | plast -w "plast" -f cmd.js
 ```
 **yeh!**
 

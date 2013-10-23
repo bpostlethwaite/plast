@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 /*
  * Command line interface to plast
  *
@@ -32,7 +31,7 @@ function run(argv) {
         if (argv.g) {
 
 
-            funclist = plast.getfuncs(src, depth)
+            funclist = getfuncs(src, depth)
 
             /*
              * If user doesn't want to wrap, print and call it a day
@@ -49,7 +48,7 @@ function run(argv) {
          */
         if (argv.w) {
             funclist = argv.g ? funclist : stdindata;
-            var newsrc = plast.wrapfuncs(src, funclist, modname);
+            var newsrc = wrapfuncs(src, funclist, modname);
             console.log(newsrc);
         }
 

@@ -1,9 +1,9 @@
 {
-  "name": "pasta",
-  "version": "0.0.0",
+  "name": "plast",
+  "version": "0.0.1",
   "description": "wrap functions in module namespacing, print functions at different depth levels",
   "main": "index.js",
-  "bin" {
+  "bin": {
     "plast":"bin/cmd.js"
   },
   "scripts": {
