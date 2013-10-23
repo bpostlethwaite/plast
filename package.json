@@ -1,0 +1,30 @@
+{
+  "name": "pasta",
+  "version": "0.0.0",
+  "description": "wrap functions in module namespacing, print functions at different depth levels",
+  "main": "index.js",
+  "bin" {
+    "plast":"bin/cmd.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bpostlethwaite/plast.git"
+  },
+  "keywords": [
+    "AST",
+    "parse",
+    "namespacing"
+  ],
+  "author": "Ben Postlethwaite",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bpostlethwaite/plast/issues"
+  },
+  "dependencies": {
+    "optimist": "~0.6.0",
+    "falafel": "~0.3.1"
+  }
+}
