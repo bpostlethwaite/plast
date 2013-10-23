@@ -1,7 +1,7 @@
 plast
 =====
 
-parsing AST analyizer
+parse lovely AST's to make module wrapping more fun.
 
 ## Usage
 
