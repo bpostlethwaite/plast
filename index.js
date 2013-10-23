@@ -1,10 +1,10 @@
 /*
  * plast - the Plotly AST thing
  *
- * Daisy chain pasta with pipes to get it done!
+ * Daisy chain plast with pipes to get it done!
  *
  *
- * >> plast -g -d 0 -f index.js | plast -w "wrapper" -f cmd.js
+ * >> plast -g -d 0 -f index.js | plast -w "wrapper" -f cmd.js > outfile.js
  *
  * Ben Postlethwaite
  * Oct 22nd
