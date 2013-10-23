@@ -27,7 +27,7 @@ Output is a console log of the transformed source file.
 
 ### Bonus points
 ```bash
-example>> plast -g -d 1 -f index.js | plast -w "plast" -f cmd.js
+example>> plast -g -d 1 -f index.js | plast -w "plast" -f cmd.js > outfile.js
 ```
 **yeh!**
 

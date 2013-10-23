@@ -1,6 +1,6 @@
 {
   "name": "plast",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "wrap functions in module namespacing, print functions at different depth levels",
   "main": "index.js",
   "bin": {
