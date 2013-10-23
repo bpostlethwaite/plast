@@ -19,9 +19,9 @@ This tells plast to parse the AST of `myscript.js` and print all the functions a
 
 
 ```bash
-example>> echo "wrapfuncs getfuncs | plast -w "plast" -f cmd.js
+example>> echo "wrapfuncs getfuncs" | plast -w "plast" -f cmd.js
 ```
-Wrap `func1 func2` and `func3` with `wrapper` so that we get `wrapper.func1`, `wrapper.func2` and `wrapper.func3`.
+Wrap `wrapfuncs` and `getfuncs` functions with wrapper `plast` so that we get `plast.wrapfuncs`, `plast.getfuncs`.
 Output is a console log of the transformed source file.
 
 
