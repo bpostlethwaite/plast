@@ -33,6 +33,6 @@ example>> plast -g -d 1 -f index.js | plast -w "plast" -f cmd.js
 
 
 ## Installation
-'''bash
+```bash
 >> npm install -g plast
 ```
